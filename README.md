@@ -23,20 +23,7 @@ This tool helps redistribute NFTs from specified accounts to existing NFT holder
 ## Installation
 
 1. Clone this repository:
-
-
-## Configuration
-
-You can configure the tool by modifying the following variables in `distributeAPES.js`:
-javascript
-// Set your NFT collection details
-const ISSUER_ADDRESS = "your_issuer_address_here";
-const TAXON = 1; // Set your NFT taxon number
-// Specify accounts to redistribute from
-const ACCOUNTS_TO_REDISTRIBUTE_FROM = ["account_address_1", "account_address_2"];
-// Specify accounts that should not receive redistributed NFTs
-const ACCOUNTS_INELIGIBLE_FOR_REDISTRIBUTION = ["ineligible_account_1"];
-
+2. node distributeAPES.js
 
 ### Required Configuration:
 - `ISSUER_ADDRESS`: The address that issued the NFT collection
