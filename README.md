@@ -42,7 +42,10 @@ The script generates:
   - Distribution statistics
   - Holder statistics
 
+
 ## Example Output
+
+```json
 {
   "totalNFTs": 10064,
   "burnedNFTs": 66,
@@ -71,6 +74,8 @@ The script generates:
         {
           "nft_id": "00081388A47691FB124F91B5FF0F5246AED2B5275385689F53A83E390000079D",
           "uri": "516D4E6735636D6E564E736F4376526233445442694B37634A55674D753542336D3973756756547332474158316A"
-        },
+        }
       ]
-    },
+    }
+  ]
+}
